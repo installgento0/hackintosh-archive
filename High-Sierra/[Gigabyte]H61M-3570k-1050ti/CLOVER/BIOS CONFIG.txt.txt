@@ -1,0 +1,16 @@
+BIOS Configuration
+
+BIOS FEATURES:
+- Limit CPUID Maximum - Disabled
+- Execute Bit Disabled - Enabled
+- Intel Virtualization Technology - Disabled
+- VT-d - Enabled
+
+PERIPHERALS
+- SATA Mode Selection - AHCI
+- Internal Graphics - Disabled
+- Legacy USB Support - Enabled
+- EHCI Hand-Off - Disabled
+
+POWER MANAGEMENT
+- ACPI Sleep State - S3
