@@ -1,0 +1,131 @@
+4:845  4:156  Found BIOS RSDP at F0010
+4:845  0:000  Printing ACPI tables from RSDP F0010 ...
+4:845  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:845  0:000    (Xsdt: BD634088, Rsdt: BD634028)
+4:845  0:000    BD634088: 'XSDT', 'A M I', Rev: 1, Len: 148
+4:845  0:000    BD634028: 'RSDT', 'A M I', Rev: 1, Len: 92
+4:845  0:000    Tables in Xsdt: 14
+4:845  0:000    0. BD6446E0: 'FACP', 'A M I', Rev: 5, Len: 268
+4:845  0:000        (Dsdt: BD6341B8, Facs: BD665F80, XDsdt: BD6341B8, XFacs: 0)
+4:845  0:000        BD6341B8: 'DSDT', 'A M I', Rev: 2, Len: 66853
+4:846  0:000        BD665F80: 'FACS', Ver: 2, Len: 64
+4:846  0:000    1. BD6447F0: 'APIC', 'A M I', Rev: 3, Len: 114
+4:846  0:000    2. BD644868: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:846  0:000    3. BD6448B0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:846  0:000    4. BD644958: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:846  0:000    5. BD644E98: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+4:846  0:000    6. BD645A10: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:846  0:000    7. BD645A50: 'HPET', 'A M I', Rev: 1, Len: 56
+4:846  0:000    8. BD645A88: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+4:846  0:000    9. BD645DF8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 23390
+4:846  0:000    10. BD64B958: 'AAFT', 'OEMAAFT ', Rev: 1, Len: 556
+4:846  0:000    11. BD64BB88: 'UEFI', 'A M I', Rev: 1, Len: 66
+4:846  0:000    12. BD64BBD0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:846  0:000    13. BD64BC08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1401
+4:846  0:000    Tables in Rsdt: 14
+4:846  0:000    0. BD634130: 'FACP', 'A M I', Rev: 2, Len: 132
+4:846  0:000        (Dsdt: BD6341B8, Facs: BD665F40)
+4:846  0:000        BD6341B8: 'DSDT', 'A M I', Rev: 2, Len: 66853
+4:847  0:000        BD665F40: 'FACS', Ver: 0, Len: 64
+4:847  0:000    1. BD6447F0: 'APIC', 'A M I', Rev: 3, Len: 114
+4:847  0:000    2. BD644868: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:847  0:000    3. BD6448B0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:847  0:000    4. BD644958: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:847  0:000    5. BD644E98: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+4:847  0:000    6. BD645A10: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:847  0:000    7. BD645A50: 'HPET', 'A M I', Rev: 1, Len: 56
+4:847  0:000    8. BD645A88: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+4:847  0:000    9. BD645DF8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 23390
+4:847  0:000    10. BD64B958: 'AAFT', 'OEMAAFT ', Rev: 1, Len: 556
+4:847  0:000    11. BD64BB88: 'UEFI', 'A M I', Rev: 1, Len: 66
+4:847  0:000    12. BD64BBD0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:847  0:000    13. BD64BC08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1401
+4:847  0:000  Found UEFI Acpi 2.0 RSDP at BD634000
+4:847  0:000  Saving ACPI tables from RSDP BD634000 to EFI\CLOVER\ACPI\origin ...
+4:847  0:000   BD634000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:853  0:006    (Xsdt: BD634088, Rsdt: BD634028)
+4:853  0:000    BD634088: 'XSDT', 'A M I', Rev: 1, Len: 148 -> XSDT.aml
+4:856  0:002    BD634028: 'RSDT', 'A M I', Rev: 1, Len: 92 -> RSDT.aml
+4:858  0:002    Tables in Xsdt: 14
+4:858  0:000    0. BD6446E0: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+4:861  0:002        (Dsdt: BD6341B8, Facs: BD665F80, XDsdt: BD6341B8, XFacs: 0)
+4:861  0:000        BD6341B8: 'DSDT', 'A M I', Rev: 2, Len: 66853 -> DSDT.aml
+4:866  0:005        BD665F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+4:869  0:002    1. BD6447F0: 'APIC', 'A M I', Rev: 3, Len: 114 -> APIC.aml
+4:871  0:002    2. BD644868: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+4:876  0:004    3. BD6448B0: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+4:879  0:002    4. BD644958: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-0.aml
+4:881  0:002    5. BD644E98: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+ Found hidden SSDT 4 pcs
+4:881  0:000        * BAF87598: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00       * BD4AC618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D0 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-2x.aml
+4:884  0:002        * BD4ACC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B0 50 6D 52 65 66 00 Internal length = 979 -> SSDT-3x.aml
+4:886  0:002        * BD4ABD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-4x.aml
+4:889  0:002   -> SSDT-1.aml
+4:892  0:002    6. BD645A10: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+4:894  0:002    7. BD645A50: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+4:897  0:003    8. BD645A88: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-5.aml
+4:900  0:002    9. BD645DF8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 23390 -> SSDT-6.aml
+4:903  0:002    10. BD64B958: 'AAFT', 'OEMAAFT ', Rev: 1, Len: 556 -> AAFT.aml
+4:905  0:002    11. BD64BB88: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+4:908  0:002    12. BD64BBD0: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+4:911  0:002    13. BD64BC08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1401 -> SSDT-7.aml
+4:913  0:002    Tables in Rsdt: 14
+4:913  0:000    0. BD634130: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+4:916  0:002        (Dsdt: BD6341B8, Facs: BD665F40)
+4:916  0:000        BD6341B8: 'DSDT', 'A M I', Rev: 2, Len: 66853
+4:917  0:000        BD665F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+4:920  0:003    1. BD6447F0: 'APIC', 'A M I', Rev: 3, Len: 114
+4:920  0:000    2. BD644868: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:920  0:000    3. BD6448B0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:920  0:000    4. BD644958: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:920  0:000    5. BD644E98: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+4:920  0:000    6. BD645A10: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:920  0:000    7. BD645A50: 'HPET', 'A M I', Rev: 1, Len: 56
+4:920  0:000    8. BD645A88: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+4:920  0:000    9. BD645DF8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 23390
+4:920  0:000    10. BD64B958: 'AAFT', 'OEMAAFT ', Rev: 1, Len: 556
+4:920  0:000    11. BD64BB88: 'UEFI', 'A M I', Rev: 1, Len: 66
+4:920  0:000    12. BD64BBD0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:920  0:000    13. BD64BC08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1401
+4:920  0:000  Found UEFI Acpi 1.0 RSDP at BD634000
+4:920  0:000  Printing ACPI tables from RSDP BD634000 ...
+4:920  0:000   BD634000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:920  0:000    (Xsdt: BD634088, Rsdt: BD634028)
+4:920  0:000    BD634088: 'XSDT', 'A M I', Rev: 1, Len: 148
+4:920  0:000    BD634028: 'RSDT', 'A M I', Rev: 1, Len: 92
+4:920  0:000    Tables in Xsdt: 14
+4:920  0:000    0. BD6446E0: 'FACP', 'A M I', Rev: 5, Len: 268
+4:920  0:000        (Dsdt: BD6341B8, Facs: BD665F80, XDsdt: BD6341B8, XFacs: 0)
+4:920  0:000        BD6341B8: 'DSDT', 'A M I', Rev: 2, Len: 66853
+4:921  0:000        BD665F80: 'FACS', Ver: 2, Len: 64
+4:921  0:000    1. BD6447F0: 'APIC', 'A M I', Rev: 3, Len: 114
+4:921  0:000    2. BD644868: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:921  0:000    3. BD6448B0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:921  0:000    4. BD644958: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:921  0:000    5. BD644E98: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+4:921  0:000    6. BD645A10: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:921  0:000    7. BD645A50: 'HPET', 'A M I', Rev: 1, Len: 56
+4:921  0:000    8. BD645A88: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+4:921  0:000    9. BD645DF8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 23390
+4:921  0:000    10. BD64B958: 'AAFT', 'OEMAAFT ', Rev: 1, Len: 556
+4:921  0:000    11. BD64BB88: 'UEFI', 'A M I', Rev: 1, Len: 66
+4:921  0:000    12. BD64BBD0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:921  0:000    13. BD64BC08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1401
+4:921  0:000    Tables in Rsdt: 14
+4:921  0:000    0. BD634130: 'FACP', 'A M I', Rev: 2, Len: 132
+4:921  0:000        (Dsdt: BD6341B8, Facs: BD665F40)
+4:921  0:000        BD6341B8: 'DSDT', 'A M I', Rev: 2, Len: 66853
+4:921  0:000        BD665F40: 'FACS', Ver: 0, Len: 64
+4:921  0:000    1. BD6447F0: 'APIC', 'A M I', Rev: 3, Len: 114
+4:921  0:000    2. BD644868: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:921  0:000    3. BD6448B0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:921  0:000    4. BD644958: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:921  0:000    5. BD644E98: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+4:921  0:000    6. BD645A10: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:921  0:000    7. BD645A50: 'HPET', 'A M I', Rev: 1, Len: 56
+4:921  0:000    8. BD645A88: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+4:921  0:000    9. BD645DF8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 23390
+4:921  0:000    10. BD64B958: 'AAFT', 'OEMAAFT ', Rev: 1, Len: 556
+4:921  0:000    11. BD64BB88: 'UEFI', 'A M I', Rev: 1, Len: 66
+4:921  0:000    12. BD64BBD0: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:921  0:000    13. BD64BC08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1401
